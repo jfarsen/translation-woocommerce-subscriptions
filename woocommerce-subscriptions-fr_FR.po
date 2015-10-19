@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-18 23:55-0400\n"
+"PO-Revision-Date: 2015-10-19 00:12-0400\n"
 "Language-Team: ARSENEAULT Consultation <info@arseneault.ca>\n"
 "X-Generator: Poedit 1.8.5\n"
 "Last-Translator: Jean-Francois Arseneault <jf@arseneault.ca>\n"
@@ -1846,7 +1846,7 @@ msgstr ""
 #. translators: placeholder is a day of the week
 #: includes/class-wc-subscriptions-synchroniser.php:617
 msgid "%s each week"
-msgstr ""
+msgstr "%s chaque semaine"
 
 #. translators: placeholder is a number of day with language specific suffix
 #. applied (e.g. "1st", "3rd", "5th", etc...)
@@ -2540,8 +2540,8 @@ msgstr ""
 #: includes/wcs-time-functions.php:53 tmp/wordpress/wp-includes/formatting.php:2766
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s année"
+msgstr[1] "%s années"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:375
 #: includes/wcs-time-functions.php:52 tmp/wordpress/wp-includes/formatting.php:2761
@@ -2554,38 +2554,38 @@ msgstr[1] "%s mois"
 #: includes/wcs-time-functions.php:51 tmp/wordpress/wp-includes/formatting.php:2756
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s semaine"
+msgstr[1] "%s semaines"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:377
 #: includes/wcs-time-functions.php:50 tmp/wordpress/wp-includes/formatting.php:2751
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s jour"
+msgstr[1] "%s jours"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:378
 #: tmp/wordpress/wp-includes/formatting.php:2746
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s heure"
+msgstr[1] "%s heures"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:379
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:380
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s seconde"
+msgstr[1] "%s secondes"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:384
 msgid "Now!"
-msgstr ""
+msgstr "Maintenant !"
 
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:471
 #: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:474
@@ -3265,14 +3265,14 @@ msgstr ""
 #. 3$: recurring amount string (e.g. "£10 / month" )
 #: includes/wcs-formatting-functions.php:81
 msgid "%1$s %2$s then %3$s"
-msgstr ""
+msgstr "%1$s %2$s puis %3$s"
 
 #. translators: 1$: initial amount, 2$: initial description (e.g. "up front"),
 #. 3$: recurring amount string, 4$: payment day of the week (e.g. "$15 up
 #. front, then $10 every Wednesday")
 #: includes/wcs-formatting-functions.php:95
 msgid "%1$s %2$s then %3$s every %4$s"
-msgstr ""
+msgstr "%1$s %2$s puis %3$s chaque %4$s"
 
 #. translators: 1$: initial amount, 2$: initial description (e.g. "up front" ),
 #. 3$: recurring amount, 4$: interval (e.g. "2nd week"), 5$: day of the week
@@ -3280,7 +3280,7 @@ msgstr ""
 #. Wednesday")
 #: includes/wcs-formatting-functions.php:104
 msgid "%1$s %2$s then %3$s every %4%s on %5$s"
-msgstr ""
+msgstr "%1$s %2$s puis %3$s chaque %4%s le %5$s"
 
 #. translators: 1$: initial amount, 2$: initial description (e.g. "up front"),
 #. 3$: recurring amount; (e.g. "$10 up front then $30 on the last day of each
@@ -3314,34 +3314,34 @@ msgstr "%1$s %2$s puis %3$s le %4$s jour de chaque %5$s mois"
 #. (e.g. "23rd")
 #: includes/wcs-formatting-functions.php:157
 msgid "%1$s %2$s then %3$s on %4$s %5$s each year"
-msgstr ""
+msgstr "%1$s %2$s puis %3$s le %4$s %5$s chaque année"
 
 #. translators: 1$: initial amount, 2$: initial description (e.g. "up front"),
 #. 3$: recurring amount, 4$: month (e.g. "March"), 5$: day of the month (e.g.
 #. "23rd"), 6$: interval (e.g. "3rd")
 #: includes/wcs-formatting-functions.php:166
 msgid "%1$s %2$s then %3$s on %4$s %5$s every %6$s year"
-msgstr ""
+msgstr "%1$s %2$s puis %3$s le %4$s %5$s chaque %6$s année"
 
 #. translators: 1$: initial amount, 2$: initial description (e.g. "up front"),
 #. 3$: recurring amount, 4$: subscription period (e.g. "month" or "3 months")
 #: includes/wcs-formatting-functions.php:176
 msgid "%1$s %2$s then %3$s / %4$s"
 msgid_plural "%1$s %2$s then %3$s every %4$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s %2$s puis %3$s / %4$s"
+msgstr[1] "%1$s %2$s puis %3$s chaque %4$s"
 
 #. translators: 1$: subscription string (e.g. "$10 up front then $5 on March
 #. 23rd every 3rd year"), 2$: trial length (e.g. "3 weeks")
 #: includes/wcs-formatting-functions.php:193
 msgid "%1$s after %2$s free trial"
-msgstr ""
+msgstr "%1$s après %2$s d'essai gratuit"
 
 #. translators: 1$: trial length (e.g. "3 weeks"), 2$: subscription string
 #. (e.g. "$10 up front then $5 on March 23rd every 3rd year")
 #: includes/wcs-formatting-functions.php:196
 msgid "%1$s free trial then %2$s"
-msgstr ""
+msgstr "%1$s d'essai gratuit puis %2$s"
 
 #. translators: date placeholder for input, javascript format
 #: includes/wcs-helper-functions.php:38
@@ -3398,25 +3398,25 @@ msgstr ""
 #: includes/wcs-time-functions.php:29 includes/wcs-time-functions.php:156
 msgid "day"
 msgid_plural "%s days"
-msgstr[0] "day"
+msgstr[0] "jour"
 msgstr[1] "%s jours"
 
 #: includes/wcs-time-functions.php:30 includes/wcs-time-functions.php:157
 msgid "week"
 msgid_plural "%s weeks"
-msgstr[0] "week"
+msgstr[0] "semaine"
 msgstr[1] "%s semaines"
 
 #: includes/wcs-time-functions.php:31 includes/wcs-time-functions.php:158
 msgid "month"
 msgid_plural "%s months"
-msgstr[0] "month"
+msgstr[0] "mois"
 msgstr[1] "%s mois"
 
 #: includes/wcs-time-functions.php:32 includes/wcs-time-functions.php:159
 msgid "year"
 msgid_plural "%s years"
-msgstr[0] "year"
+msgstr[0] "année"
 msgstr[1] "%s années"
 
 #: includes/wcs-time-functions.php:79
@@ -3443,7 +3443,7 @@ msgstr "1 année"
 #: includes/wcs-time-functions.php:128
 msgctxt "period interval (eg \"$10 _every_ 2 weeks\")"
 msgid "every"
-msgstr ""
+msgstr "chaque"
 
 #: includes/wcs-time-functions.php:177
 msgctxt "no trial period"
